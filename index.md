@@ -27,10 +27,17 @@ Développeur basé à **Saint-Denis, Réunion** avec plus de 3 ans d'expérience
 
 ### Projets Notables
 
-#### ELMS - Plateforme E-Learning (Backend)
-*   **Description :** API GraphQL complète pour une plateforme de gestion d'apprentissage en ligne. Gère les cours, utilisateurs, authentification JWT et permissions avec sécurité avancée. Utilise Apollo Server, Prisma ORM et Node.js.
-*   **Compétences :** API GraphQL, authentification JWT, gestion de base de données (Prisma), sécurité (permissions), Node.js
+#### ELMS - Plateforme E-Learning Complète
+
+**Backend - API GraphQL**
+*   **Description :** API GraphQL complète pour la gestion de l'apprentissage en ligne. Gère les cours, utilisateurs, authentification JWT et permissions sécurisées. Utilise Apollo Server et Prisma ORM pour l'accès aux données.
+*   **Compétences :** API GraphQL, Apollo Server, authentification JWT, Prisma ORM, sécurité (permissions), Node.js
 *   **Code Source :** [https://github.com/robotane/elms](https://github.com/robotane/elms)
+
+**Frontend - Single-Page Application React**
+*   **Description :** Interface utilisateur interactive développée avec React pour consommer l'API GraphQL. Inclut authentification, tableau de bord utilisateur, routage et gestion d'état avec React Context.
+*   **Compétences :** React.js, Apollo Client, React Router, Semantic UI, gestion d'état (Context API)
+*   **Code Source :** [https://github.com/robotane/elms](https://github.com/robotane/elms) (branche client)
 
 #### Architecture Microservices Complète
 *   **Description :** Conception et implémentation d'une architecture microservices avec scaling automatique, observabilité (Fluent Bit), circuit breaker et résilience. Inclut 6 exercices pédagogiques pour maîtriser les patterns modernes.
@@ -75,7 +82,7 @@ Développeur basé à **Saint-Denis, Réunion** avec plus de 3 ans d'expérience
 *   **Master 1 en Mathématiques Appliquées** - Université Nazi Boni (2021-2022)
     *   *Spécialité : Modélisation et Calculs Scientifiques.*
 
-*   **Licence en Sciences et Technologies** - Université Nazi Boni (2016-2019)
+*   **Licence en Mathématiques, Physique et Informatique** - Université Nazi Boni (2016-2019)
     *   *Cours clés : Théorie des Graphes, Analyse Numérique, Probabilités, Intelligence Artificielle, Logiciel Scientifique.*
 
 ---
