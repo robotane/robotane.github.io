@@ -1,0 +1,7 @@
+cd /home/robotane/Projects/robotane.github.io
+
+git add index.md _config.yml assets/images/
+
+git commit -m "Update: add profile image, correct licence to MPI, refactor ELMS with backend/frontend separation, update theme to slate"
+
+git push origin main
