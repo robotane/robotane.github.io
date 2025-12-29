@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serge Olivier BAYE | Portfolio Ingénieur</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome (Icônes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fichier CSS externe -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="brand">SOB<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#education">Formation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Serge Olivier BAYE</h1>
+            <div class="subtitle">Développeur & Ingénieur Informatique | Algorithmes & Systèmes</div>
+            <div class="expertise-path">Expertise en Mathématiques Appliquées puis en Ingénierie Informatique</div>
+            <div class="btn-group">
+                <a href="mailto:olivierbaye4@gmail.com" class="btn btn-blue"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://github.com/robotane" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2 class="section-title"><i class="fas fa-id-card"></i> À propos de moi</h2>
+            <div class="about-text">
+                <p>Développeur basé à <strong>Saint-Denis, Réunion</strong> avec plus de 3 ans d'expérience. Fort d'un parcours académique et technique en <strong>mathématiques appliquées puis en ingénierie informatique</strong>, je combine rigueur analytique et ingénierie logicielle pour concevoir des systèmes performants, scalables et maintenables.</p>
+                <p style="margin-top: 1rem;">Passionné par les algorithmes complexes, les architectures microservices et la data science, j'interviens sur l'ensemble du cycle de développement de solutions distribuées.</p>
+                <div class="about-links">
+                    <a href="https://github.com/robotane" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> github.com/robotane
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title"><i class="fas fa-brain"></i> Compétences Clés</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Algorithmes & Graphes</h4>
+                    <ul>
+                        <li>Théorie des graphes & Algorithmes avancés</li>
+                        <li>Chemins optimaux (Dijkstra, Bellman-Ford, etc.)</li>
+                        <li>Programmation linéaire & Optimisation</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>Full-Stack Development</h4>
+                    <ul>
+                        <li>APIs GraphQL (Apollo) & RESTful</li>
+                        <li>Node.js, Java, JavaScript, Prisma ORM</li>
+                        <li>Authentification JWT & Sécurité applicative</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>Infrastructure & Cloud</h4>
+                    <ul>
+                        <li>Kubernetes, Docker & Orchestration</li>
+                        <li>Microservices & Systèmes distribués</li>
+                        <li>Pipelines ETL & DevOps (CI/CD)</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>AI & Data Science</h4>
+                    <ul>
+                        <li>Machine Learning (Supervisé/Non-supervisé)</li>
+                        <li>Fouille de données & Réseaux de neurones</li>
+                        <li>Python (Numpy, Scipy, Scikit-learn)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tag-wrap">
+                <span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">Node.js</span><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">Matlab</span><span class="tag">R</span><span class="tag">SageMaths</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projets Notables</h2>
+
+            <div class="project-item">
+                <div class="project-header"><h4>ELMS - Plateforme E-Learning</h4></div>
+                <div class="project-content">
+                    <div class="project-sub">
+                        <h5>Backend - API GraphQL</h5>
+                        <p class="project-desc">Conception d'une API pour la gestion de l'apprentissage en ligne : cours, utilisateurs, authentification JWT et permissions sécurisées.</p>
+                        <p class="comp-list"><strong>Compétences :</strong> Apollo Server, Prisma ORM, JWT, Node.js.</p>
+                    </div>
+                    <div class="project-sub">
+                        <h5>Frontend - SPA React</h5>
+                        <p class="project-desc">Interface interactive avec tableau de bord utilisateur, routage dynamique et gestion d'état Context API.</p>
+                        <p class="comp-list"><strong>Compétences :</strong> React.js, Apollo Client, React Router.</p>
+                    </div>
+                    <a href="https://github.com/robotane/elms" class="git-btn"><i class="fab fa-github"></i> Voir sur GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header"><h4>Architecture Microservices</h4></div>
+                <div class="project-content">
+                    <p class="project-desc">Implémentation d'un système distribué avec scaling automatique, observabilité (Fluent Bit), et patterns de résilience (Circuit Breaker).</p>
+                    <div class="tag-wrap">
+                        <span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Fluent Bit</span>
+                    </div>
+                    <a href="https://github.com/robotane/drink-locker-microservices" class="git-btn"><i class="fab fa-github"></i> Voir le code</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header"><h4>Graphes & Algorithmes</h4></div>
+                <div class="project-content">
+                    <p class="project-desc">Implémentation Python rigoureuse des algorithmes Dijkstra, Bellman-Ford et Floyd-Warshall pour l'analyse de réseaux pondérés.</p>
+                    <a href="https://github.com/robotane/graph-theory-algos" class="git-btn"><i class="fab fa-github"></i> Voir le code</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header"><h4>MoodleBoard Lite</h4></div>
+                <div class="project-content">
+                    <p class="project-desc">Environnement Moodle via Docker avec pipeline ETL pour l'extraction et le chargement de données analytiques.</p>
+                    <a href="https://github.com/robotane/moodleboard-lite" class="git-btn"><i class="fab fa-github"></i> Voir le code</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Formation</h2>
+
+            <div class="edu-item">
+                <div class="edu-date">2025 - 2026</div>
+                <div class="edu-title">Master 2 Informatique</div>
+                <div class="edu-school">Université de La Réunion</div>
+                <div class="edu-details">
+                    <strong>Cours clés :</strong> Fouille de données & Machine Learning avancé, Réseaux modernes, Systèmes d'information, Services web et cloud, Cybersécurité, Vérification logicielle, Gestion de projet IT.
+                </div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-date">2024 - 2025</div>
+                <div class="edu-title">Master Mathématiques (parcours Erasmus)</div>
+                <div class="edu-school">Université de La Réunion</div>
+                <div class="edu-details">Focus : Théorie des graphes, Informatique Décisionnelle, Logique.</div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-date">2021 - 2022</div>
+                <div class="edu-title">Master 1 Mathématiques Appliquées</div>
+                <div class="edu-school">Université Nazi Boni</div>
+                <div class="edu-details">Spécialité : Modélisation et Calculs Scientifiques.</div>
+            </div>
+        </section>
+
+        <section id="languages">
+            <h2 class="section-title"><i class="fas fa-globe"></i> Langues</h2>
+            <div class="lang-grid">
+                <div class="lang-card"><strong>Français :</strong> Natif (C2)</div>
+                <div class="lang-card"><strong>Anglais :</strong> Courant (B2)</div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Serge Olivier BAYE | Portfolio Ingénieur & Mathématicien</p>
+        </footer>
+    </div>
+
+    <!-- Fichier JS externe -->
+    <script src="js/script.js"></script>
+</body>
+</html>
