@@ -74,7 +74,7 @@ Développeur basé à **Saint-Denis, Réunion** avec plus de 3 ans d'expérience
 ### Formation
 
 *   **Master 2 Informatique** - Université de La Réunion (2025-2026)
-    *   *En cours.*
+    *   *Cours clés : Fouille de données & Machine Learning avancé, Réseaux modernes, Systèmes d'information, Services web et cloud, Cybersécurité, Vérification logicielle, Gestion de projet IT, Expérience en entreprise/laboratoire.*
 
 *   **Master en Mathématiques (parcours Erasmus)** - Université de La Réunion (2024-2025)
     *   *Cours clés : Théorie des graphes, Informatique Décisionnelle, Logique.*
