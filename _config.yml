@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
 title: Serge Olivier BAYE
-description: Développeur & Ingénieur Informatique | Algorithmes & Systèmes Distribués
+description: Méthodes formelles & ingénierie logicielle — analyse de programmes, preuve de terminaison, systèmes distribués et données.
 image: /assets/images/profile.jpg
+lang: fr
