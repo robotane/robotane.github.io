@@ -11,19 +11,25 @@
 }
 
 :root {
-    /* Dark is the default; [data-theme] on <html> switches the palette. */
-    --bg: #141414;
-    --bg-raised: #1d1d1d;
-    --bg-hover: #262626;
-    --border: #303030;
-    --text: #e8e8e8;
-    --text-muted: #a0a0a0;
-    --heading: #f5f5f5;
-    --accent: #6fbf95;
-    --accent-soft: rgba(111, 191, 149, 0.14);
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    /* Sage & stone. Dark is the default; [data-theme] on <html> switches it.
+       Neutrals carry a slight warm cast — that is what keeps them from
+       reading clinical. */
+    --bg: #1a1c19;
+    --bg-raised: #232621;
+    --bg-hover: #2b2f29;
+    --border: #33372f;
+    --text: #e6e7e2;
+    --text-muted: #a8ab9f;
+    --heading: #f2f3ee;
+    --accent: #91b089;
+    --accent-soft: rgba(145, 176, 137, 0.14);
+    /* Tag labels sit on --accent-soft and run small, so they need a
+       lighter sage than the link accent to stay comfortably readable. */
+    --accent-on-soft: #b4ccac;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
     --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
 
     --measure: 860px;
@@ -31,16 +37,19 @@
 }
 
 :root[data-theme='light'] {
-    --bg: #ffffff;
-    --bg-raised: #f7f7f5;
-    --bg-hover: #efefec;
-    --border: #e2e2de;
-    --text: #2b2b2b;
-    --text-muted: #666663;
-    --heading: #141414;
-    --accent: #2f6f4e;
-    --accent-soft: rgba(47, 111, 78, 0.10);
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    --bg: #faf9f6;
+    --bg-raised: #f1efea;
+    --bg-hover: #e9e6df;
+    --border: #e0dcd3;
+    --text: #2e302b;
+    --text-muted: #61645a;
+    --heading: #1f211d;
+    /* Darkened from #5f7d5a so the accent clears AA on both the page
+       background and the raised card surface. */
+    --accent: #526d4d;
+    --accent-soft: rgba(82, 109, 77, 0.12);
+    --accent-on-soft: #3c5536;
+    --shadow: 0 1px 2px rgba(60, 55, 40, 0.06);
 }
 
 html {
@@ -228,16 +237,17 @@ a:hover {
 }
 
 .header h1 {
-    font-size: clamp(2rem, 5vw, 2.7rem);
-    font-weight: 700;
-    letter-spacing: -0.02em;
+    font-family: var(--font-serif);
+    font-size: clamp(2.6rem, 7vw, 4rem);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
     color: var(--heading);
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .tagline {
-    font-family: var(--font-mono);
-    font-size: 0.98rem;
+    font-size: 1.05rem;
     color: var(--accent);
     letter-spacing: 0.01em;
     margin-bottom: 18px;
@@ -294,13 +304,12 @@ a:hover {
 }
 
 .section h2 {
-    font-size: 0.82rem;
-    font-family: var(--font-mono);
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    color: var(--text-muted);
-    margin-bottom: 34px;
+    font-family: var(--font-serif);
+    font-size: 1.85rem;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    color: var(--heading);
+    margin-bottom: 30px;
 }
 
 .section > p {
@@ -424,9 +433,10 @@ strong {
     margin-bottom: 10px;
 }
 
+/* Card copy is primary content, not metadata — full text colour. */
 .project p {
-    font-size: 0.92rem;
-    color: var(--text-muted);
+    font-size: 0.95rem;
+    color: var(--text);
     margin-bottom: 16px;
     flex-grow: 1;
 }
@@ -459,11 +469,11 @@ strong {
 
 .tags span {
     font-family: var(--font-mono);
-    font-size: 0.72rem;
-    padding: 3px 9px;
+    font-size: 0.76rem;
+    padding: 4px 10px;
     border-radius: 4px;
     background: var(--accent-soft);
-    color: var(--accent);
+    color: var(--accent-on-soft);
 }
 
 .tech-tags {
@@ -498,8 +508,8 @@ strong {
 }
 
 .skill-group p {
-    font-size: 0.92rem;
-    color: var(--text-muted);
+    font-size: 0.95rem;
+    color: var(--text);
 }
 
 /* ---------------------------------------------------------------- Education */
